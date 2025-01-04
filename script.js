@@ -75,7 +75,6 @@
           const input = this.value.trim().toLowerCase();
           const suggestionsDiv = document.getElementById("suggestions");
           suggestionsDiv.innerHTML = "";
-
           if (input.length > 0) {
             const filteredCities = cities.filter((city) =>
               city.toLowerCase().includes(input)
